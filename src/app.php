@@ -15,7 +15,10 @@ require __DIR__ . '/dependencies.php';
 require __DIR__ . '/middleware.php';
 
 // Register routes
-require __DIR__ . '/routes/routes.php';
+require __DIR__ . '/routes/@@@routes.php';
+
+// Register models
+require __DIR__ . '/models/@@@models.php';
 
 // Run app
 $app->run();

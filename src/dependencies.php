@@ -28,3 +28,5 @@ $container['db'] = function ($container) {
 
     return $capsule;
 };
+
+$app->getContainer()->get("db"); 

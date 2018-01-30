@@ -1,8 +1,8 @@
 <?php
 return [
     'settings' => [
-        'displayErrorDetails' => true, // set to false in production
-        'addContentLengthHeader' => false, // Allow the web server to send the content-length header
+        'displayErrorDetails' => true, // establecer en falso en producción
+        'addContentLengthHeader' => false, // Permitir que el servidor web envíe el encabezado de longitud del contenido
 
         // Renderer settings
         'renderer' => [
@@ -19,10 +19,10 @@ return [
         // Eloquent settings
         'db' => [
             'driver' => 'mysql',
-            'host' => 'xxx',
-            'database' => 'xxx',
+            'host' => '192.168.0.9',
+            'database' => 'Alquileres',
             'username' => 'root',
-            'password' => 'xxx',
+            'password' => 'sie.1234',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
