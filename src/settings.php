@@ -19,10 +19,10 @@ return [
         // Eloquent settings
         'db' => [
             'driver' => 'mysql',
-            'host' => '192.168.0.9',
+            'host' => 'localhost',
             'database' => 'Alquileres',
             'username' => 'root',
-            'password' => 'sie.1234',
+            'password' => '',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
